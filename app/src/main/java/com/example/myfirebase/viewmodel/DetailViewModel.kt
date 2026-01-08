@@ -15,7 +15,6 @@ import kotlinx.coroutines.launch
 import kotlinx.serialization.InternalSerializationApi
 import java.io.IOException
 
-
 sealed interface StatusUIDetail {
     data class Success(val satusiswa: Siswa?) : StatusUIDetail
     object Error : StatusUIDetail
